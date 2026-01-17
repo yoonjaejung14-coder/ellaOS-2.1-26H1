@@ -35,7 +35,7 @@ ellaOS 2.1은 Python과 Tkinter를 기반으로 제작된 데스크톱 환경 �
 ```bash
 pip install pillow pygame
 (Tkinter는 Python 기본 라이브러리에 포함되어 있습니다.)
-
+```
 ▶ 실행 방법
 Python이 설치되어 있는지 확인합니다.
 
@@ -52,11 +52,12 @@ ellaOS를 더 편리하게 실행하기 위해 배치파일을 사용할 수 있
 1️⃣ 배치파일 생성
 아래 내용을 ella.bat 파일로 저장합니다.
 
-bat
+```bat
 코드 복사
 @echo off
 cd /d C:\ellaOS
 python ellaOS.py
+```
 2️⃣ 실행 방법
 Windows + R 키를 누릅니다.
 
@@ -68,7 +69,7 @@ text
 코드 복사
 ella
 📁 폴더 구조 예시
-makefile
+```makefile
 코드 복사
 C:\
 ├─ ella.bat
@@ -76,6 +77,7 @@ C:\
    ├─ ellaOS.py
    ├─ images\
    └─ sounds\
+```
 ⚠ 주의 사항
 이미지 및 사운드 파일 경로가 올바르지 않으면 실행되지 않을 수 있습니다.
 
