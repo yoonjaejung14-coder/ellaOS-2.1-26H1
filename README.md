@@ -53,7 +53,6 @@ ellaOS를 더 편리하게 실행하기 위해 배치파일을 사용할 수 있
 아래 내용을 ella.bat 파일로 저장합니다.
 
 ```bat
-코드 복사
 @echo off
 cd /d C:\ellaOS
 python ellaOS.py
@@ -66,7 +65,6 @@ cmd 입력 후 Enter
 아래 명령어를 입력합니다.
 
 text
-코드 복사
 ella
 📁 폴더 구조 예시
 ```makefile
